@@ -1,1 +1,1 @@
-web: java -jar target/chatbotOpenAI.war
+web: java -jar target/chatbotOpenAI-0.0.1-SNAPSHOT.war
