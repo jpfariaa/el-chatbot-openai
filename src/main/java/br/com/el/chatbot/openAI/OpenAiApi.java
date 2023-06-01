@@ -15,7 +15,7 @@ import java.util.List;
 
 public class OpenAiApi {
     private static final String OPENAI_URL = "https://api.openai.com/v1/chat/completions";
-    private static final String OPENAI_API_KEY = "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";
+    private static final String OPENAI_API_KEY = "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";
 
     public static class OpenAIRequest {
         String model;
