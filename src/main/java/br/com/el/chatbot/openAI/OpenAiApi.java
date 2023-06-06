@@ -51,8 +51,8 @@ public class OpenAiApi {
 
             Gson gson = new Gson();
 
-            Message message = new Message("user", removeAccents(prompt));
-            OpenAIRequest request = new OpenAIRequest("gpt-3.5-turbo", Collections.singletonList(message), 150, 0.1);
+            Message message = new Message("user", removeAccents("Você é uma mulher simpática. " + prompt));
+            OpenAIRequest request = new OpenAIRequest("gpt-3.5-turbo", Collections.singletonList(message), 150, 0.5);
             StringEntity input = new StringEntity(gson.toJson(request));
             post.setEntity(input);
 
